@@ -1,2 +1,4 @@
 # openwork_analysis
 openworkデータ分析
+
+selenium を使ってopenworkに自動ログインしてデータを取得（openwork_scr_共有用.py）し、言語解析モデルにより各社のワークライフバランスに関するそれぞれの口コミを得点化（openwork_review_scoring_chBASA.pyやopenwork_review_scoring_MARCja.py　※これらは利用しているモデルが異なる）して、それぞれのワークライフバランスについて調べてみるためのロジックです。
